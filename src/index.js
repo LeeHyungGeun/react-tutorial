@@ -1,18 +1,9 @@
-/*eslint-disable no-console */
-/*eslint-disable import/default */
-import 'babel-polyfill';
 import React from 'react';
-import { render } from 'react-dom';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import routes from './routes';
-import { Provider } from 'react-redux';
-import configureStore from './store/configureStore';
+import ReactDOM from 'react-dom';
 
-const store = configureStore();
-
-render(
-    <Provider store={store}>
-        <BrowserRouter children={routes} />
-    </Provider>,
-    document.getElementById('app')
-);
+class HelloWorldComponent extends React.Component {
+    render() {
+        return <div>Hello World</div>;
+    }
+}
+ReactDOM.render(<HelloWorldComponent />, document.getElementsByTagName('body')[0]);
