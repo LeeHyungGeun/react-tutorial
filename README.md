@@ -44,7 +44,7 @@ Referenced:
 
 
 ## 2. Lifecycle
-### kinds of Lifecycle API
+### Kinds of Lifecycle API
 __Mounting__
 - [constructor()](#constructor)
 - [componentWillMount()](#componentwillmount)
@@ -61,7 +61,7 @@ __Updating__
 __Unmounting__
 - [componentWillUnmount()](#componentwillunmount)
 
-### types of Lifecycle API
+### Types of Lifecycle API
 __Creating a Component - Mount__
 
 constructor -> componentWillMount -> render -> componentDidMount
