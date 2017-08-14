@@ -46,20 +46,20 @@ Referenced:
 ## 2. Lifecycle
 ### A kind of Lifecycle API
 __Mounting__
-- [constructor()](#constructor())
-- [componentWillMount()](#componentWillMount())
+- [constructor()](#constructor)
+- [componentWillMount()](#componentwillmount)
 - [render()](#render())
-- [componentDidMount()](#componentDidMount())
+- [componentDidMount()](#componentdidmount)
 
 __Updating__
-- [componentWillReceiveProps()](#componentWillReceiveProps())
-- [shouldComponentUpdate()](#shouldComponentUpdate())
-- [componentWillUpdate()](#componentWillUpdate())
+- [componentWillReceiveProps()](#componentwillreceiveProps)
+- [shouldComponentUpdate()](#shouldcomponentupdate)
+- [componentWillUpdate()](#componentwillupdate)
 - [render()](#render())
-- [componentDidUpdate()](#componentDidUpdate())
+- [componentDidUpdate()](#componentdidupdate)
 
 __Unmounting__
-- [componentWillUnmount()](#componentWillUnmount())
+- [componentWillUnmount()](#componentwillunmount)
 
 ### Details of Lifecycle API
 #### constructor()
