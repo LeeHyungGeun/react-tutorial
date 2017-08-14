@@ -48,7 +48,7 @@ Referenced:
 __Mounting__
 - [constructor()](#constructor)
 - [componentWillMount()](#componentwillmount)
-- [render()](#render
+- [render()](#render)
 - [componentDidMount()](#componentdidmount)
 
 __Updating__
