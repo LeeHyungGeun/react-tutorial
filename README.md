@@ -97,6 +97,7 @@ NOTE: this.setState() is nothing to do in the cycle.
 
 #### shouldComponentUpdate(nextProps, nextState)
 You can set whether rerender a component, or not when prop or state are updated.
+
 Example
 ```
 return nextProps.id !== this.props.id;
