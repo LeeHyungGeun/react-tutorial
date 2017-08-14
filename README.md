@@ -96,4 +96,4 @@ It is invoked after fade out of a component on DOM.
 
 
 ## Refenreced
-- [The Component Lifecycle](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)s
+- [The Component Lifecycles](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)s
