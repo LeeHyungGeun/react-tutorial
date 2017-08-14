@@ -53,9 +53,9 @@ __Mounting__
 
 __Updating__
 - [componentWillReceiveProps()](#componentwillreceivepropsnextprops)
-- [shouldComponentUpdate()](#shouldcomponentupdatenextprops)
+- [shouldComponentUpdate()](#shouldcomponentupdatenextprops-nextstate)
 - [componentWillUpdate()](#componentwillupdatenextprops-nextstate)
-- [render()](#render())
+- [render()](#render)
 - [componentDidUpdate()](#componentdidupdate)
 
 __Unmounting__
@@ -87,6 +87,9 @@ return nextProps.id !== this.props.id;
 #### componentWillUpdate(nextProps, nextState)
 It is invoked before update.
 NOTE: Do __NOT__ use this.setState() in this cycle, it will be fall in infinite loop.
+
+#### componentDidUpdate(prevProps, prevState)
+It is invoked after render.
 
 #### componentWillUnmount()
 It is invoked after fade out of a component on DOM.
