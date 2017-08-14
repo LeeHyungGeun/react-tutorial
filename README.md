@@ -48,13 +48,13 @@ Referenced:
 __Mounting__
 - [constructor()](#constructor)
 - [componentWillMount()](#componentwillmount)
-- [render()](#render())
+- [render()](#render
 - [componentDidMount()](#componentdidmount)
 
 __Updating__
-- [componentWillReceiveProps()](#componentwillreceiveProps)
-- [shouldComponentUpdate()](#shouldcomponentupdate)
-- [componentWillUpdate()](#componentwillupdate)
+- [componentWillReceiveProps()](#componentwillreceivepropsnextprops)
+- [shouldComponentUpdate()](#shouldcomponentupdatenextprops)
+- [componentWillUpdate()](#componentwillupdatenextprops-nextstate)
 - [render()](#render())
 - [componentDidUpdate()](#componentdidupdate)
 
