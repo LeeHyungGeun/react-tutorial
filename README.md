@@ -44,7 +44,7 @@ Referenced:
 
 
 ## 2. Lifecycle
-### A kind of Lifecycle API
+### kinds of Lifecycle API
 __Mounting__
 - [constructor()](#constructor)
 - [componentWillMount()](#componentwillmount)
@@ -60,6 +60,23 @@ __Updating__
 
 __Unmounting__
 - [componentWillUnmount()](#componentwillunmount)
+
+### types of Lifecycle API
+__Creating a Component - Mount__
+
+constructor -> componentWillMount -> render -> componentDidMount
+
+__Removing a Component - Mount__
+
+componentWillUnmount _only_
+
+__props updated - Props__
+
+componentWillReceiveProps -> shouldComponentUpdate -> componentWillUpdate -> render -> componentDidUpdate
+
+__state updated - State__
+
+shouldComponentUpdate -> componentWillUpdate -> render -> componentDidUpdate
 
 ### Details of Lifecycle API
 #### constructor()
@@ -93,6 +110,7 @@ It is invoked after render.
 
 #### componentWillUnmount()
 It is invoked after fade out of a component on DOM.
+
 
 
 ## Refenreced
