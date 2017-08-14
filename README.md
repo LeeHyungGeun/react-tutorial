@@ -62,19 +62,19 @@ __Unmounting__
 - [componentWillUnmount()](#componentwillunmount)
 
 ### Types of Lifecycle API
-__Creating a Component - Mount__
+__1. Creating a Component - Mount__
 
 constructor -> componentWillMount -> render -> componentDidMount
 
-__Removing a Component - Mount__
+__2. Removing a Component - Mount__
 
 componentWillUnmount _only_
 
-__props updated - Props__
+__3. Props updated - Props__
 
 componentWillReceiveProps -> shouldComponentUpdate -> componentWillUpdate -> render -> componentDidUpdate
 
-__state updated - State__
+__4. State updated - State__
 
 shouldComponentUpdate -> componentWillUpdate -> render -> componentDidUpdate
 
