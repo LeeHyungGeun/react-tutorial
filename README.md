@@ -39,7 +39,7 @@ class ReactComponent extends React.Component {
 
 Referenced:
 - [functional-component-benchmark](https://github.com/missive/functional-components-benchmark)
-- [Converting a Function to a Class](Converting a Function to a Class)
+- [Converting a Function to a Class](https://facebook.github.io/react/docs/state-and-lifecycle.html#converting-a-function-to-a-class)
 - [[ReactJS]강좌:함수형 컴포넌트(Functional Component)](https://velopert.com/2994)
 
 
